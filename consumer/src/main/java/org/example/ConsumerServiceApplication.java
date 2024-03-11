@@ -1,11 +1,11 @@
-package com.q100s.microtest;
+package org.example;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class MicrotestApplication {
+public class ConsumerServiceApplication {
     public static void main(String[] args) {
-        SpringApplication.run(MicrotestApplication.class, args);
+        SpringApplication.run(ConsumerServiceApplication.class, args);
     }
 }
